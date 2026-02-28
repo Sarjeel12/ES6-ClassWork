@@ -79,22 +79,89 @@
 
 
 // ClassPractice
-let timerType;
+// let timerType;
 
-let test = document.getElementById("test");
-let letterCount = document.getElementById("letterCount");
-letwordCount = document.getElementById("wordCount");
-let getData = document.getElementById("getData");
+// let test = document.getElementById("test");
+// let letterCount = document.getElementById("letterCount");
+// letwordCount = document.getElementById("wordCount");
+// let getData = document.getElementById("getData");
 
-getData.addEventListener("input", () => {
-    // let value = getData.value;
+// getData.addEventListener("input", () => {
+//     // let value = getData.value;
 
-    console.log(getData.value);
+//     console.log(getData.value);
 
-    clearInterval(timerType);
+//     clearInterval(timerType);
 
-    timerType = setTimeout(() => {
-        console.log("Time is up");
-        getData.setAttribute("readonly", "true");
-    }, 2000);
-});
+//     timerType = setTimeout(() => {
+//         console.log("Time is up");
+//         getData.setAttribute("readonly", "true");
+//     }, 2000);
+// });
+
+
+// Array MAp , filter
+
+// let arr = [1, 20, 3, 40, 5];
+
+// let newArr = arr.map((v) => v > 5);
+
+// if (val > 5) {
+//     return val;
+// } else {
+//     return 0;
+// };
+
+// console.log(newArr);
+
+
+// let items = document.getElementById("items");
+
+// let ul = [
+//     { item: "One", display: "show" },
+//     { item: "Two", display: "hide" },
+//     { item: "Three", display: "show" },
+//     { item: "Four", display: "hide" },
+//     { item: "Five", display: "show" }];
+
+// ul.map((v) => {
+//     let li = document.createElement("li");
+//     li.innerHTML = v.item;
+//     items.appendChild(li);
+
+//     if (v.display === "hide") {
+//         li.style.display = "none";
+//     }else {
+//         li.style.display = "block";
+//     }
+// });
+
+
+
+
+// filter
+
+// let arr = [1, 20, 3, 40, 5];
+
+// let newArr = arr.filter((v) => v > 5);
+
+// console.log(newArr);
+
+// let items = document.getElementById("items");
+
+// let ul = [
+//     { name: "Ali" },
+//     { name: "Ahmed" },
+//     { name: "Sarjeel" },
+//     { name: "Asim" },
+//     { name: "Adeel" }
+// ];
+
+// ul.filter((v) => v.name.startsWith("A")).map((v) => {
+//     let li = document.createElement("li");
+//     li.innerHTML = v.name;
+//     items.appendChild(li);
+// });
+
+
+// find
